@@ -1,4 +1,4 @@
-﻿// @id PROVGUID-SHIM-SMPL-FAKE-DATAPROVIDER
+// @id PROVGUID-SHIM-SMPL-FAKE-DATAPROVIDER
 // @name /Providers/Sample/Name
 // @version 1.1.0
 // @lang all
@@ -82,5 +82,4 @@ class SampleRegisterExtension extends OProvider {
 SampleRegisterExtension main(dynamic source) {
   return SampleRegisterExtension(source: source as OSource);
 }
-
 
